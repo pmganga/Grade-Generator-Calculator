@@ -1,13 +1,13 @@
 ## Grade Generator Calculator
 
-A two-part Python + Bash project for calculating student grades and archiving results.
+This is a two-part Python and  Bash project for calculating student grades and archiving results.
 
-### Files
+### Files contained:
 - `grade-generator.py` - Interactive grade calculator with validation, GPA, pass/fail logic, and CSV export
 - `organizer.sh`       - Bash script that archives all `.csv` files with timestamp and logs everything
-- `README.md`           - This file
+- `README.md`           
 
-### Features Implemented
+###Below are the  features that have been implemented
 - Full input validation (grade 0-100, positive weights, FA/SA only)
 - Weighted grade calculation
 - Separate Formative and Summative tracking
