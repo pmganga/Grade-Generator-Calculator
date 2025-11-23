@@ -21,7 +21,7 @@ if [ ${#csv_files[@]} -eq 0 ]; then
     exit 0
 fi
 
-echo "[$(date)] Starting archiving process (found ${#csv_files[@]} CSV file(s))" >> "$LOGILE"
+echo "[$(date)] Starting archiving process (found ${#csv_files[@]} CSV file(s))" >> "$LOG"
 
 for file in "${csv_files[@]}"; do
     # Skip if it's the log file or already in archive
